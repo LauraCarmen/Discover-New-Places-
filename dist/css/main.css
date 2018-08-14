@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  background-color: aliceblue; }
+
+.l-wrap {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.grid-item {
+  width: calc((100% - 20px * 12) / 12);
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left; }
+
+.l-main {
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem; }
+  .l-main .three-col-grid {
+    width: 25%;
+    float: left;
+    text-align: center; }
+
+.l-header {
+  max-width: 100%;
+  background-image: url(../img/city_background.jpg);
+  background-size: cover;
+  height: 40rem; }
+  .l-header:after {
+    display: table;
+    clear: both;
+    content: ''; }
+
+.main_nav {
+  text-align: center; }
+  .main_nav .main_nav_item {
+    display: inline-block;
+    padding: 2rem; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.l-heading {
+  text-align: center;
+  color: #fff; }
+  .l-heading .lg_heading {
+    text-transform: uppercase;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 5rem;
+    margin-top: 6rem; }
+  .l-heading .sm_heading {
+    font-size: 4rem;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: lighter; }
